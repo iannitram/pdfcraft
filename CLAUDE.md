@@ -52,3 +52,13 @@ PdfCraft is a clean-room, open-source, Rust-native PDF application targeting Ado
 
 ## Current bootstrap debt (tracked in STATUS.md)
 - `pdfcraft-render` renders through the `hayro` crate directly and inspects documents through `lopdf`. Both get replaced by `cos` / `model` / the DisplayList device (M1–M2, ADR-0004).
+
+## Agent skills
+
+### Issue tracker
+
+Reports are markdown files in the Software Depot's `apps/<App>/reports/`, not GitHub Issues. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
